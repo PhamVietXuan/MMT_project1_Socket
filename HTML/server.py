@@ -29,7 +29,6 @@ while True:
     connection,address = my_socket.accept()
     request = connection.recv(1024).decode('utf-8')
     string_list = request.split(' ')     # Split request from spaces
-    print (string_list)
     if len(string_list) < 2:
         break
     method = string_list[0]
