@@ -8,3 +8,8 @@
     padding: 3px;
     display: block;
 }
+.example{
+    border: 3px;
+    solid: #4a7d49;
+    display: inline;
+}
