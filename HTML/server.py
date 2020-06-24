@@ -35,19 +35,10 @@ while True:
 
     request = connection.recv(1024).decode('utf-8')
     string_list = request.split(' ')     # Split request from spaces
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 94726568fc49a3777352735f29752df5198c65db
-=======
->>>>>>> 94726568fc49a3777352735f29752df5198c65db
     if len(string_list) < 2:
         break
     method = string_list[0]
     requesting_file = string_list[1]
->>>>>>> 94726568fc49a3777352735f29752df5198c65db
     
     if len(string_list) < 2:  
         continue
